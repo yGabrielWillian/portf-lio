@@ -1,0 +1,33 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1.display-4, h2 {
+    font-weight: bold;
+}
+
+.hero {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.feature-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Adicionar imagem de fundo à seção hero */
+.hero {
+    background-size: cover;
+    background-position: center;
+}
